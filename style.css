@@ -1,0 +1,82 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    color: #0B3D91;
+    text-align: center;
+}
+
+
+main {
+    display: inline-block; 
+    background-color: rgba(173,216,230,0.85); 
+    padding: 3em 4em;       
+    margin-top: 3em;
+    border-radius: 0;       
+    max-width: 1000px;      
+    width: 90%;            
+    box-sizing: border-box; 
+}
+
+}
+
+
+header h1 {
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+
+.artist-photo {
+    width: 400px;
+    border-radius: 0;
+    display: block;
+    margin: 0 auto 1em auto;
+}
+
+
+.discography ul {
+    list-style: square;
+    padding-left: 1.5em;
+    text-align: left;
+    max-width: 500px;
+    margin: 1em auto;
+}
+
+.discography li {
+    margin-bottom: 1em;
+}
+
+.discography span {
+    display: block;
+    font-weight: 300;
+    margin-top: 0.3em;
+}
+
+
+.themes ol {
+    list-style: decimal; 
+    padding-left: 1.5em;
+    text-align: left;
+    max-width: 500px;
+    margin: 1em auto;
+}
+
+}
+
+
+footer {
+    margin-top: 2em;
+    font-size: 0.9em;
+}
+
+
+@media (max-width: 600px) {
+    .artist-photo {
+        width: 80%;
+    }
+}
